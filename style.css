@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.container-ph{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 205vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,105,1) 43%, rgba(9,189,226,1) 100%);
+    color: aliceblue;
+    text-align: center;
+
+    
+}
+
+.PH{
+
+    background-color: rgb(173, 30, 30);
+    
+}
+
+.Leo{
+
+ background-color: aliceblue;
+
+}
+
+.navbar-brand{
+
+color: aliceblue;
+
+}
+
+.nav-link{
+
+color: aliceblue;
+
+}
+
