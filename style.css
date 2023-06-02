@@ -12,6 +12,7 @@ body {
     background-color: #2d19e2;
     padding: 10px;
     color: #FFF;
+    text-align: center;
   }
   
   nav {
@@ -20,23 +21,24 @@ body {
     align-items: center;
   }
   
-  .logo img {
-    width: 190px;
+  .logo h1 {
+    
+    margin: 0;
+    font-size: 24px;
+    
   }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-left: 20px;
-  }
-  
-  nav ul li a {
+  .oi ul{
+
+    list-style-type: none;
+    padding: 21px;
+    margin: 0;
+    background-color: black;
     color: #FFF;
-    text-decoration: none;
+    text-align: center;
+    width: 126%;
   }
+  
+ 
   
   /* Estilos do banner principal */
   
