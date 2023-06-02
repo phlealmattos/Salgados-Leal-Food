@@ -1,45 +1,118 @@
-*{
+/* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family:  Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
-    color: aliceblue;
-}
-
-.container-ph{
-    height: 30vh;
+  }
+  
+  /* Estilos do cabeçalho */
+  
+  header {
+    background-color: #2d19e2;
+    padding: 10px;
+    color: #FFF;
+  }
+  
+  nav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    width: 205vh;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,105,1) 43%, rgba(9,189,226,1) 100%);
-    color: aliceblue;
+  }
+  
+  .logo img {
+    width: 190px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  /* Estilos do banner principal */
+  
+  .banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
     text-align: center;
-
-    
-}
-
-.PH{
-
-    background-color: rgb(173, 30, 30);
-    
-}
-
-.Leo{
-
- background-color: aliceblue;
-
-}
-
-.navbar-brand{
-
-color: aliceblue;
-
-}
-
-.nav-link{
-
-color: aliceblue;
-
-}
-
+    color: #FFF;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .botao {
+    background-color: #FFF;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos da seção de restaurantes em destaque */
+  
+  .destaques {
+    padding: 60px;
+  }
+  
+  .destaques h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card-restaurante {
+    background-color: #FFF;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-restaurante img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .card-restaurante h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-restaurante p {
+    font-size: 16px;
+  }
+  
+  /* Estilos do rodapé */
+  
+  footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+  }
+  
