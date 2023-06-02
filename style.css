@@ -15,28 +15,41 @@ body {
     text-align: center;
   }
   
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
+  nav{
+    margin: 0;
+    background-color: #000000;
+    color: #FFF;
+}
+
+.ul{
+list-style-type: none;
+    padding: 21px;
+    margin: 0;
+    background-color: black;
+    text-align: center;
+    width: 126%;
+}
+
+li{
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a{
+  text-decoration: none;
+  color: lightgray;
+  padding: 10px 10px;
+  align-items: left;
+}
   .logo h1 {
     
     margin: 0;
     font-size: 24px;
     
   }
-  .oi ul{
-
-    list-style-type: none;
-    padding: 21px;
-    margin: 0;
-    background-color: black;
-    color: #FFF;
-    text-align: center;
-    width: 126%;
-  }
+ 
   
  
   
