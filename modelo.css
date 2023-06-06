@@ -32,7 +32,7 @@ header {
 .box-busca{ 
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 30%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -107,10 +107,10 @@ header {
 
 /*atendimento*/
 
-.atendimento {
+.carrinho{
     position: absolute;
-    top: 50%;
-    left: 890px;
+    top: 45%;
+    left: 1475px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -129,11 +129,11 @@ header {
 
 /*diretriz*/
 
-.ajuda{
+.atendimento{
 
     position: absolute;
     top: 50%;
-    left: 1150px;
+    left: 1590px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -156,7 +156,48 @@ header {
 
     position: absolute;
     top: 50%;
-    left: 1290px;
+    left: 1705px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #2d19e2;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 10px;
+
+}
+
+.Luz{
+
+    position: absolute;
+    top: 50%;
+    left: 1870px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #2d19e2;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 10px;
+
+}
+
+.Alerta{
+    position: absolute;
+    top: 53%;
+    left: 1365px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
