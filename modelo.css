@@ -11,14 +11,19 @@ body {
 header {
     position: relative;
     background-color: #2d19e2;
-    padding: 5px;
+    padding: 1px;
     color: #FFF;
     text-align: left;
 }
 
 .logo img {
-    width: 140px;
-    height: 140px;
+
+    position: relative;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -26,14 +31,21 @@ header {
 
 .box-busca{ 
     position: absolute;
-    top: -1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #2d19e2;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 10px;
 }
 .search-box-input::placeholder {
     
@@ -50,7 +62,7 @@ header {
     
     display: flex;
     border-radius: 50px;
-    background-color: #4c4c4c;
+    background-color: #252525;
     height: 45px;
 }
 .search-box:hover .search-box-input {
@@ -74,7 +86,7 @@ header {
    border-radius: 50%;
    width: 45px;
    height: 45px;
-   background-color: #fbff11;
+   background-color: #d6ff1e;
    border: none;
    cursor: pointer;
    transition: .3s;
@@ -95,15 +107,69 @@ header {
 
 /*atendimento*/
 
-.atendimento{
-
-    position: relative;
-    top: -1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+.atendimento {
+    position: absolute;
+    top: 50%;
+    left: 890px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #2d19e2;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 10px;
 
 }
+
+/*diretriz*/
+
+.ajuda{
+
+    position: absolute;
+    top: 50%;
+    left: 1150px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #2d19e2;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 10px;
+
+}
+
+/*Login*/
+
+.Login{
+
+    position: absolute;
+    top: 50%;
+    left: 1290px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #2d19e2;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 10px;
+
+}
+
