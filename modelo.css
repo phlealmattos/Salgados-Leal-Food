@@ -11,7 +11,7 @@ body {
 header {
     position: relative;
     background-color: #2d19e2;
-    padding: 1px;
+    padding: 2px;
     color: #FFF;
     text-align: left;
 }
@@ -29,7 +29,7 @@ header {
 
 /*pesquisa*/
 
-.box-busca{ 
+.box-busca {
     position: absolute;
     top: 50%;
     left: 30%;
@@ -47,30 +47,43 @@ header {
     -o-border-radius: 40px;
     padding: 10px;
 }
+
 .search-box-input::placeholder {
-    
-    color:#ffffff;
+
+    color: #ffffff;
     opacity: 0.6;
 }
+
 /* Chrome, Opera ySafari */
-.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+.search-box-input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
 /* Firefox 19+ */
-.search-box-input::-moz-placeholder { color: #ffffff; }
+.search-box-input::-moz-placeholder {
+    color: #ffffff;
+}
+
 /* IE 10+ y Edge */
-.search-box-input:-ms-input-placeholder { color: #ffffff; }
+.search-box-input:-ms-input-placeholder {
+    color: #ffffff;
+}
+
 .search-box form {
-    
+
     display: flex;
     border-radius: 50px;
     background-color: #252525;
     height: 45px;
 }
+
 .search-box:hover .search-box-input {
-    
+
     padding-left: 2em;
-    padding-right: 1em;
+    padding-right: 20em;
     width: 250px;
 }
+
 .search-box-input {
     outline: 0;
     font-size: 1.2em;
@@ -81,25 +94,29 @@ header {
     background: none;
     transition: .45s;
 }
+
 .search-box-button {
-   display: flex;
-   border-radius: 50%;
-   width: 45px;
-   height: 45px;
-   background-color: #d6ff1e;
-   border: none;
-   cursor: pointer;
-   transition: .3s;
+    display: flex;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #d6ff1e;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
 }
-.search-box-button:active  {
+
+.search-box-button:active {
     transform: scale(.85);
 }
+
 .search-box-icone {
     margin: auto;
     color: #fff;
 }
-@media screen and (min-width: 400px){
-    
+
+@media screen and (min-width: 400px) {
+
     .search-box:hover .search-box-input {
         width: 360px;
     }
@@ -107,7 +124,7 @@ header {
 
 /*atendimento*/
 
-.carrinho{
+.carrinho {
     position: absolute;
     top: 45%;
     left: 1475px;
@@ -129,7 +146,7 @@ header {
 
 /*diretriz*/
 
-.atendimento{
+.atendimento {
 
     position: absolute;
     top: 50%;
@@ -152,7 +169,7 @@ header {
 
 /*Login*/
 
-.Login{
+.Login {
 
     position: absolute;
     top: 50%;
@@ -173,30 +190,11 @@ header {
 
 }
 
-.Luz{
 
+
+.Alerta {
     position: absolute;
     top: 50%;
-    left: 1870px;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    background: #2d19e2;
-    height: 40px;
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
-    padding: 10px;
-
-}
-
-.Alerta{
-    position: absolute;
-    top: 53%;
     left: 1365px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -214,3 +212,119 @@ header {
 
 }
 
+.banner {
+
+    padding: 100px;
+    text-align: center;
+    color: #000000;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.botao {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Destaque de comida */
+
+.destaques {
+    padding: 60px;
+}
+
+.destaques h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-restaurante {
+    background-color: #FFF;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-restaurante img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card-restaurante h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-restaurante p {
+    font-size: 16px;
+}
+
+/* letreiro que move */
+
+
+.fundo {
+
+    position: absolute;
+    top: 11%;
+    background: #7a7a7a;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+
+}
+
+
+
+.ifood {
+
+top: 20%;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+
+
+.Luz {
+
+    position: absolute;
+    top: 150%;
+    left: 1850px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 10px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
