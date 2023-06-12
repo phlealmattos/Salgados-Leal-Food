@@ -81,7 +81,7 @@ header {
 
     padding-left: 2em;
     padding-right: 20em;
-    width: 250px;
+    width: 280px;
 }
 
 .search-box-input {
@@ -122,18 +122,17 @@ header {
     }
 }
 
-/*atendimento*/
+/*carrinho*/
 
-.carrinho {
+.Carrinho {
     position: absolute;
-    top: 45%;
-    left: 1475px;
+    top: 60%;
+    left: 1345px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    background: #2d19e2;
     height: 40px;
     border-radius: 40px;
     -webkit-border-radius: 40px;
@@ -144,19 +143,59 @@ header {
 
 }
 
-/*diretriz*/
+.car {
+   
+  
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.Carrinho {
+     
+    display: inline-block;
+}
+
+.carro {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.carro a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.carro a:hover {background-color: #f1f1f1;}
+
+.Carrinho:hover .carro {
+  display: block;
+}
+
+.Carrinho:hover .car {
+  background-color: #ffffff;
+}
+
+/*atendimento*/
+
 
 .atendimento {
-
     position: absolute;
-    top: 50%;
-    left: 1590px;
+    top: 60%;
+    left: 1500px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    background: #2d19e2;
     height: 40px;
     border-radius: 40px;
     -webkit-border-radius: 40px;
@@ -165,6 +204,111 @@ header {
     -o-border-radius: 40px;
     padding: 10px;
 
+}
+
+.ate {
+   
+  
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.atendimento {
+     
+    display: inline-block;
+}
+
+.atende {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.atende a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.atende a:hover {background-color: #f1f1f1;}
+
+.atendimento:hover .atende {
+  display: block;
+}
+
+.atendimento:hover .ate {
+  background-color: #ffffff;
+}
+
+
+/*Alerta*/
+
+.Alerta {
+    position: absolute;
+    top: 60%;
+    left: 1650px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+   
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 10px;
+
+}
+
+.ale {
+   
+  
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+   
+}
+
+.Alerta {
+     
+    display: inline-block;
+}
+
+.atento {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.atento a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.atento a:hover {background-color: #f1f1f1;}
+
+.Alerta:hover .atento {
+  display: block;
+}
+
+.Alerta:hover .ale {
+  background-color: #ffffff;
 }
 
 /*Login*/
@@ -173,7 +317,7 @@ header {
 
     position: absolute;
     top: 50%;
-    left: 1705px;
+    left: 1795px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -191,26 +335,7 @@ header {
 }
 
 
-
-.Alerta {
-    position: absolute;
-    top: 50%;
-    left: 1365px;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    background: #2d19e2;
-    height: 40px;
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
-    padding: 10px;
-
-}
+/*meio*/
 
 .banner {
 
@@ -323,8 +448,13 @@ top: 20%;
 }
 
 footer {
-    background-color: #333;
+   
     color: #FFF;
-    padding: 20px;
+   
+    
     text-align: center;
+    background: #7a7a7a;
+    padding: 0;
+    width: 100%;
+    height: 50px;
 }
