@@ -150,3 +150,134 @@ li a{
     margin-bottom: 40px;
     
   }
+
+  
+  *#dm *.dmInner div.dmFooter {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+}
+*#dm *.dmInner div.dmFooter {
+    background-color: rgba(0,0,0,1) !important;
+}
+#dm * {
+    -webkit-tap-highlight-color: transparent;
+}
+.dmFooter {
+    background-color: rgb(51,51,51);
+    color: #f7f7f7;
+}
+.dmFooter {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+    background: rgb(51,51,51);
+    color: #f7f7f7;
+    padding: 0;
+}
+.dmInner * {
+    -webkit-font-smoothing: antialiased;
+}
+* {
+    scrollbar-arrow-color: #fff;
+    scrollbar-track-color: #F2F2F2;
+    scrollbar-face-color: #C0C0C0;
+    scrollbar-highlight-color: #C0C0C0;
+    scrollbar-3dlight-color: #C0C0C0;
+    scrollbar-shadow-color: #C0C0C0;
+    scrollbar-darkshadow-color: #C0C0C0;
+    scrollbar-width: 12px;
+}
+* {
+    border: 0 solid #333333;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+*#dm div.dmInner, *#dm div.dmInner *.dmRespCol, *#dm *.ecwid *, *#dm *.dmform *.dmforminput label, *.dmPrettyList *.listText, *.dmPrettyList *.itemName, *#dm *.dmRestaurantMenu *.menuItemBox, *.dmRestaurantMenu *.menuItemName, *.dmRestaurantMenu *.menuItemDesc, *.dmRestaurantMenu *.menuItemPrice, *.dmPhotoGallery p.caption-text, *.dmGeoLocation a span.dmGeoMLocItemTitle, *.dmGeoLocation a span.dmGeoMLocItemDetails, *.map-popup-description {
+    font-size: 16px;
+}
+*#dm div.dmInner, *#dm div.dmInner *.dmRespCol, *#dm *.ecwid *, *#dm *.dmform *.dmforminput label, *.dmPrettyList *.listText, *.dmPrettyList *.itemName, *#dm *.dmRestaurantMenu *.menuItemBox, *.dmRestaurantMenu *.menuItemName, *.dmRestaurantMenu *.menuItemDesc, *.dmRestaurantMenu *.menuItemPrice, *.dmPhotoGallery *.caption-text.caption-text, *.dmGeoLocation a span.dmGeoMLocItemTitle, *.dmGeoLocation a span.dmGeoMLocItemDetails, *.map-popup-description {
+    font-family: Poppins;
+    color: rgba(0,0,0,1);
+}
+*#dm div.dmInner, *#dm div.dmInner *.dmRespCol, *#dm *.ecwid *, *#dm *.dmform *.dmforminput label, *.dmPrettyList *.listText, *.dmPrettyList *.itemName, *#dm *.dmRestaurantMenu *.menuItemBox, *.dmRestaurantMenu *.menuItemName, *.dmRestaurantMenu *.menuItemDesc, *.dmRestaurantMenu *.menuItemPrice, *.dmPhotoGallery p.caption-text, *.dmGeoLocation a span.dmGeoMLocItemTitle, *.dmGeoLocation a span.dmGeoMLocItemDetails, *.map-popup-description {
+    color: rgba(147,147,147,1);
+    font-family: Roboto;
+}
+*#dm div.dmInner, *#dm div.dmInner *.dmRespCol, *#dm *.ecwid *, *#dm *.dmform *.dmforminput label, *.dmPrettyList *.listText, *.dmPrettyList *.itemName, *#dm *.dmRestaurantMenu *.menuItemBox, *.dmRestaurantMenu *.menuItemName, *.dmRestaurantMenu *.menuItemDesc, *.dmRestaurantMenu *.menuItemPrice, *.dmPhotoGallery p.caption-text, *.dmGeoLocation a span.dmGeoMLocItemTitle, *.dmGeoLocation a span.dmGeoMLocItemDetails {
+    color: rgba(0,0,0,1);
+}
+*#dm div.dmInner, *#dm div.dmInner *.dmRespCol, *#dm *.ecwid *, *#dm *.dmform *.dmforminput label, *.dmPrettyList *.listText, *.dmPrettyList *.itemName {
+    font-weight: 300;
+}
+*#dm div.dmInner {
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: initial;
+}
+.dmInner {
+    font-size: 16px;
+    background: rgb(255,255,255);
+    color: #666666;
+}
+.dmOuter {
+    word-wrap: break-word;
+}
+#dmRoot {
+    text-decoration-skip-ink: none;
+}
+body {
+    width: 100%;
+    overflow: hidden;
+    -webkit-text-size-adjust: 100% !important;
+    -ms-text-size-adjust: 100% !important;
+}
+:root {
+    --button-color: #03a9f4;
+    --button-hover-color: #03a9f4;
+    --text-on-light: #2094c9;
+    --text-on-button: #ffffff;
+    --header-color: #2c3e50;
+    --header-border-color: #1e2b38;
+    --header-text-color: #ffffff;
+}
+:root {
+    --header-color: #2c3e50;
+    --header-border-color: #1e2b38;
+    --backgroundColor: #f7f7f7;
+    --d-one-blue: #407ab0;
+    --logo-url: url(/editor/wl/oneDefaultLogo.png);
+    --visible-button-hover-color: rgb(2,153,222);
+    --backgroundImage: none;
+    --text-on-button: #ffffff;
+    --editorTopBarHover: rgb(2,158,229);
+    --editor-header-color: #2c3e50;
+    --link-color: #8c8c8c;
+    --button-visible-font-color: #ffffff;
+    --text-on-dark: #2094c9;
+    --header-text-color: #ffffff;
+    --oneHeaderColor: #2c3e50;
+    --oneButtonColorHalfTransparent: rgba(3,169,244,0.5);
+    --oneDevicesFontIconColor: #2c3e50;
+    --button-color: #03a9f4;
+    --d-one-orange: #f56033;
+    --button-hover-color: #F86F4C;
+    --text-on-light: #2094c9;
+}
+html {
+    font-family: Source Sans Pro;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}

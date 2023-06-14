@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Great+Vibes&display=swap');
+  </style>
     <link rel="stylesheet" href="modelo.css">
     <title>Document</title>
 </head>
@@ -30,8 +33,9 @@
           
         </div><!--Box Busca-->
 
-        <div class="Carrinho" >
-            <button class="car">Right</button>
+    
+        <div class="Nós" >
+            <div class="car">Sobre Nós</div>
             <div class="carro">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
@@ -40,16 +44,16 @@
         </div>
 
         <div class="atendimento">
-            <a class="ate">Right</a>
+            <div class="ate">Atendimento</div>
             <div class="atende">
-            <a href="#">Link 1</a>
+           <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
             </div>
         </div>
   
         <div class="Alerta" >
-            <button class="ale">Right</button>
+            <div class="ale">Diretrizes</div>
             <div class="atento">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
@@ -57,19 +61,10 @@
             </div>
         </div>
 
-        <div class="Login">
-            <i class="bi bi-person-circle"></i>
-            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
-                class="bi bi-person-circle" viewBox="0 0 16 16">
-                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                <path fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-            
-                </svg>
-                <br>
-                <a href="tela de login.html" class="personal" >Login</a>
-
-        </div>
+           
+                <button href="tela de login.html" class="Login" >Login</button>
+           
+        
 
 
 
@@ -80,7 +75,7 @@
     <div class="fundo">
         <div class="iFood">
             <marquee>
-                <h1> Seja bem-vindo ao Meu site </h1>
+                <h2> Seja bem-vindo ao Meu site </h2>
             </marquee>
         </div>
     </div>
@@ -90,6 +85,7 @@
         <h1>Encontre os melhores restaurantes perto de você</h1>
         <p>Peça sua comida favorita de forma rápida e fácil!</p>
         <a href="tela de login.html" class="botao">Faça seu pedido agora</a>
+     
     </div>
 
 
@@ -134,35 +130,6 @@
 </body>
 
 
-<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center show" id="bd-theme" type="button" aria-expanded="true" data-bs-toggle="dropdown" aria-label="Toggle theme (dark)">
-      <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-      <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-    </button>
-    <ul class="dropdown-menu dropdown-menu-end shadow show" aria-labelledby="bd-theme-text" data-popper-placement="top-end" style="position: absolute; inset: auto 0px 0px auto; margin: 0px; transform: translate(0px, -44px);">
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-          Light
-          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="dark" aria-pressed="true">
-          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-          Dark
-          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
-          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
-          Auto
-          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-        </button>
-      </li>
-    </ul>
-  </div>
 
 
 
@@ -171,7 +138,10 @@
 
 
 <footer>
-    &copy; 2023 iFood. Todos os direitos reservados.
-</footer>
-
+    <div >
+    <br>
+     <a class="open" >RESERVE UMA MESA</a> 
+   </br>
+    </div> 
+  </footer>
 </html>
