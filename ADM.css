@@ -1,0 +1,16 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    /*background-color:darkred;*/
+  
+}
+  
+.container-fluid{
+
+position: absolute;
+top: 50%;
+left: 50%;
+
+
+}

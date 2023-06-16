@@ -475,6 +475,32 @@ header {
   
 }
 
+/*Area acima*/
+
+.fundo {
+
+    position: absolute;
+    top: 11%;
+   background: #d6ff1e;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    z-index: -1;
+
+}
+
+
+
+.iFood {
+ 
+    position: relative;
+    top: -15%;
+    
+    font-size: 16px;
+    margin-bottom: 40px;
+
+}
+
 
 /*meio*/
 
@@ -506,78 +532,109 @@ header {
 
 /* Destaque de comida */
 
-.destaques {
-    padding: 60px;
+#one{
+    position: absolute;
+    top: 48%;
+    left: 25%;
+    margin-top: 16%;
+    margin-left:15%;
+    margin-right: 2%;
+    max-width: 20%;
+    width: 50%;
+    height: 30%;
+    filter: brightness(80%) blur(5px); /* Aplica um filtro de brilho de 80% e um efeito blur de 5px no fundo */
+    transition: filter 0.5s ease; /* Adiciona uma transição suave para o filtro */
 }
 
-.destaques h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+#vse{
+    position: absolute;
+    top: 48%;
+    left: -5%;
+    margin-top: 16%;
+    margin-left:15%;
+    margin-right: 2%;
+    max-width: 20%;
+    width: 50%;
+    height: 30%;
+    filter: brightness(80%) blur(5px); /* Aplica um filtro de brilho de 80% e um efeito blur de 5px no fundo */
+     transition: filter 0.5s ease; /* Adiciona uma transição suave para o filtro */
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+#vsa{
+    position: absolute;
+    top: 47.7%;
+    left: 55%;
+    margin-top: 16%;
+    margin-left:15%;
+    margin-right: 2%;
+    max-width: 20%;
+   width: 50%;
+   height: 30%;
+    filter: brightness(80%) blur(5px); /* Aplica um filtro de brilho de 80% e um efeito blur de 5px no fundo */
+     transition: filter 0.5s ease; /* Adiciona uma transição suave para o filtro */
 }
 
-.card-restaurante {
-    background-color: #FFF;
-    padding: 40px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+#one:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 1px 3px 8px 4px rgb(195, 195, 195);
+    filter: brightness(100%) blur(0px);
+}
+#vse:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 1px 3px 8px 4px rgb(195, 195, 195);
+    filter: brightness(100%) blur(0px);
 }
 
-.card-restaurante img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
+#vsa:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 1px 3px 8px 4px rgb(195, 195, 195);
+    filter: brightness(100%) blur(0px);
 }
 
-.card-restaurante h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
+
+/*descrição*/
+
+.card-restaurante1 {
+
+position: absolute;
+top: 112%;
+left: 40.2%;
+
+
 }
 
-.card-restaurante p {
-    font-size: 16px;
-}
-
-/* letreiro que move */
-
-
-.fundo {
+.card-restaurante2 {
 
     position: absolute;
-    top: 11%;
-   background: #d6ff1e;
-    padding: 0;
-    width: 100%;
-    height: 50px;
-    z-index: -1;
+    top: 112%;
+    left: 10%;
 
-}
-
-
-
-.iFood {
- 
-    position: relative;
-    top: -15%;
     
-    font-size: 16px;
-    margin-bottom: 40px;
-
 }
 
+.card-restaurante3 {
+
+    position: absolute;
+    top: 112%;
+    left: 70.5%;
+
+    
+}
+
+
+
+/* letreiro que move */
 
 
 
 footer {
    
+    position: absolute;
+    top: 130%;
     color: #ffffff;
-   
-    
     text-align: center;
     background: #1f1f1f;
     padding: 0;
@@ -585,23 +642,3 @@ footer {
     height: 400px;
 }
 
-.Luz {
-
-    position: absolute;
-    top: 167%;
-    left: 1867px;
-    color: #f1f1f1;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    height: -900px;
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
-    padding: 10px;
-
-}
