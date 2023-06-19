@@ -2,128 +2,175 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salgados Leal Food</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Great+Vibes&display=swap');
+  </style>
+    <link rel="stylesheet" href="model.css">
+    <title>Document</title>
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <img src="ig/log.png">
 
-  <header>
-    <div class="logo">
-      <img src="ig/log.png">
 
-      
+        </div>
+        <div class="box-busca">
+            <div class="search-box">
+
+                <form method="post" action="#">
+                    <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
+                    <button class="search-box-button"><i class="search-box-icone icon icon-search"><img
+                                src="ig/busca.png"></i></button>
+
+                </form>
+
+            </div><!-- Search -->
+          
+        </div><!--Box Busca-->
+
+        <div class="Ajuda" >
+            <div class="Aju">Ajuda</div>
+            <div class="Ajud">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+        </div>
+
+
+        <div class="Catalogo" >
+            <div class="cat">Catalogo</div>
+            <div class="catag">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+        </div>
+    
+        <div class="Nós" >
+            <div class="car">Sobre Nós</div>
+            <div class="carro">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="atendimento">
+            <div class="ate">Atendimento</div>
+            <div class="atende">
+           <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+        </div>
+  
+        <div class="Alerta" >
+            <div class="ale">Diretrizes</div>
+            <div class="atento">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+        </div>
+
+           
+       <a><button href="log.html" class="Login">Login</button></a>
+           
+        
+
+
+
+
+
+
+    </header>
+    <div class="fundo">
+        <div class="iFood">
+            <marquee>
+                <h2> Fique liga na promoções... </h2>
+            </marquee>
+        </div>
+    </div>
+   
+
+    <div class="banner">
+        <h1>Encontre uma explosão de sabor aqui</h1>
+        <p>Peça já um pedido grande e ganhe desconto </p>
+        <a href="#" class="botao">Ir para lista de produtos</a>
+     
     </div>
 
-    <div class="pesquisa">
-    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-  </div>
-  </header>
 
-
-
-
-  <nav>
-    <div >
-    <ul class="oi">
-      <li><h1><a href="#">Início</a></h1></li>
-      <li><h1><a href="#">Explorar</a></h1></li>
-      <li><h1><a href="#">Pedidos</a></h1></li>
-      <li><h1><a href="tela de login.html">Perfil</a></h1></li>
-      
-      <li><h1><span class="carrinho" onclick="exibirModal()">🛒</span></h1></li>
-    </ul>
+    <div class="divisoria"></div>
+    <div id="products" class="item">
+        <h2 id="colle"></h2>
+        <img id="one" src="img/up.jpg" alt="">
+        <img id="vse" src="img/Torta de p.jpg" alt="">
+        <img id="vsa" src="ig/trt.jpg" alt="">
     </div>
-  </nav>
-  
-  <div class="iFood">
-    <marquee><h1> Seja bem-vindo ao Meu site  </h1></marquee>
-  </div>
+    <br>
+    <br>
+    
+    <div class="card-restaurante1">
+        <h3>Empadão</h3>
+        <p>Esse é o famoso empadão do LealFood!</p>
+        <p>O melhor do Espirito Santo...</p>
+        
+    </div>
 
+    <div class="card-restaurante2">
+        <h3>Torta de Pão</h3>
+        <p>Se esta a procura de uma torta de pão saborosa</p>
+        <p>está no lugar certo uma das melhores tortas do ES </p>
+        <p>você so escontra aqui...</p>
+    </div>
 
-  <div class="banner">
-    <h1>Encontre os melhores restaurantes perto de você</h1>
-    <p>Peça sua comida favorita de forma rápida e fácil!</p>
-    <a href="tela de login.html" class="botao">Faça seu pedido agora</a>
-  </div>
-
- 
-  <main>
-    <section class="destaques">
-      <h2>Em Destaque</h2>
-      <div class="cards">
-        <div class="card-restaurante">
-          <img src="img/up.jpg" alt="Empadas">
-          <h3>Empadas</h3>
-          <p>Descrição do restaurante 1</p>
-        </div>
-        <div class="card-restaurante">
-          <img src="img/torta de p.jpg" alt="Torta do Pão">
-          <h3>Torta do Pão</h3>
-          <p>Descrição do restaurante 2</p>
-        </div>
-        <div class="card-restaurante">
-          <img src="img/torta sal.jpg" alt="Torta Salgada">
-          <h3>Torta Salgada</h3>
-          <p>Descrição do restaurante 3</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Outras seções da página -->
-    <!-- ... -->
-  </main>
+    <div class="card-restaurante3">
+        <h3>Torta Salgada</h3>
+        <p>Com um sabor inigualavel nossa torta salagada encanta </p>
+        <p>todos os nossos clientes com seu sabor e formato...</p>
+    </div>
 
   
-<footer>
-  <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="dmRespRow" id="1177717869"> <div class="dmRespColsWrapper" id="1010120876"> <div class="dmRespCol large-12 medium-12 small-12 u_1705497039" id="1705497039"> <div class="dmRespRow u_1126594395" id="1126594395"> <div class="dmRespColsWrapper" id="1405153762"> <div class="dmRespCol small-12 medium-6 large-6" id="1630398474"> <a data-display-type="block" class="u_1974410023 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/site/SHARD2c7a634f1579d47deb6967e3ddd4b9c21/?preview=true&amp;templateId=1000862&amp;languageCode=pt&amp;dm_device=desktop#reservations" id="1974410023" data-element-type="dButtonLinkId" raw_url="/site/SHARD2c7a634f1579d47deb6967e3ddd4b9c21/#reservations"> <span class="iconBg" id="1501926383"> <span class="icon hasFontIcon icon-star" id="1580079182"></span> 
-  </span> 
-   <span class="text" id="1890585454">RESERVE UMA MESA</span> 
-  </a> 
-  </div> 
-   <div class="dmRespCol small-12 medium-6 large-6" id="1910695064"> <div class="u_1456107631 align-center text-align-center dmSocialHub" id="1456107631" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords="" data-editor="eyJ0aXRsZSI6IiIsImRpc3BsYXlUaXRsZSI6dHJ1ZSwiZm9yY2VEaXNwbGF5IjpmYWxzZSwibGF5b3V0IjoiIiwibmV0d29ya3MiOlt7InVybCI6Imh0dHA6Ly9pbnN0YWdyYW0uY29tLyIsIm9yZGVyIjowLCJjdXN0b20iOmZhbHNlLCJpZCI6Imluc3RhZ3JhbSIsImljb25fY2xhc3MiOiIiLCJpY29uX2N1c3RvbSI6IiIsImRhdGFWYWx1ZSI6bnVsbH0seyJ1cmwiOiJodHRwczovL3RyaXBhZHZpc29yLmNvbS8iLCJvcmRlciI6MSwiY3VzdG9tIjpmYWxzZSwiaWQiOiJ0cmlwYWR2aXNvciIsImljb25fY2xhc3MiOiIiLCJpY29uX2N1c3RvbSI6IiIsImRhdGFWYWx1ZSI6bnVsbH0seyJ1cmwiOiJodHRwczovL2ZhY2Vib29rLmNvbS8iLCJvcmRlciI6MiwiY3VzdG9tIjpmYWxzZSwiaWQiOiJmYWNlYm9vayIsImljb25fY2xhc3MiOiIiLCJpY29uX2N1c3RvbSI6IiIsImRhdGFWYWx1ZSI6bnVsbH0seyJ1cmwiOiJodHRwOi8veWVscC5jb20vYml6LyIsIm9yZGVyIjozLCJjdXN0b20iOmZhbHNlLCJpZCI6InllbHAiLCJpY29uX2NsYXNzIjoiIiwiaWNvbl9jdXN0b20iOiIiLCJkYXRhVmFsdWUiOm51bGx9XSwiaWNvbnNfc3R5bGUiOiI1IiwiYWxsX3BhZ2VzIjpmYWxzZX0="> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="http://instagram.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Instagram')"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
-  </a> 
-   <a href="https://tripadvisor.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="tripadvisor" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Tripadvisor')"> <span class="dmSocialTripadvisor dm-social-icons-tripadvisor oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
-  </a> 
-   <a href="https://facebook.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Facebook')"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
-  </a> 
-   <a href="http://yelp.com/biz/" target="_blank" dm_dont_rewrite_url="true" aria-label="yelp" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Yelp')"> <span class="dmSocialYelp dm-social-icons-yelp oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
-  </a> 
-  </div> 
-  </div> 
-  </div> 
-  </div> 
-  </div> 
-  </div> 
-   <div class="u_1868845282 dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1868845282"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1860585272"></div> 
-   <div class="u_1448038725 dmRespRow" id="1448038725"> <div class="dmRespColsWrapper" id="1804379117"> <div class="dmRespCol small-12 large-4 medium-4" id="1753173288"> <div class="u_1987892588 dmNewParagraph" data-element-type="paragraph" id="1987892588" style="transition: opacity 1s ease-in-out 0s; text-align: center;" data-version="5"><p style="color:rgb(255, 255, 255);" class="text-align-center"><span style="color: rgb(255, 255, 255); font-weight: 700; display: initial;">Localização</span></p></div> <div class="u_1170975240 dmNewParagraph" data-element-type="paragraph" id="1170975240" style="transition: none 0s ease 0s; display: block; text-align: center;" data-version="5"><h5 style="color:rgb(255, 255, 255);" class="text-align-center"><span style="display: initial; color: rgb(255, 255, 255); font-weight: 300;">Rua, n.º, cidade
-   País, CEP</span></h5></div></div> 
-   <div class="dmRespCol small-12 large-4 medium-4" id="1316516175"> <div class="u_1610146904 dmNewParagraph" data-element-type="paragraph" id="1610146904" style="transition: none 0s ease 0s; display: block; text-align: center;" data-version="5"><p style="color:rgb(255, 255, 255);" class="text-align-center"><span style="display: initial; font-weight: 700; color: rgb(255, 255, 255);">Contato</span></p></div> <div class="u_1721018752 dmNewParagraph" data-element-type="paragraph" id="1721018752" style="transition: none 0s ease 0s; display: block; text-align: center;" data-version="5"><h5 style="color:rgb(255, 255, 255);" class="text-align-center"><span style="display: initial; color: rgb(255, 255, 255); font-weight: 300;">555 555-5555
-   email@emailservice.com</span></h5></div></div> 
-   <div class="dmRespCol large-4 medium-4 small-12" id="1692360036"> <div class="u_1112685070 dmNewParagraph" data-element-type="paragraph" id="1112685070" style="transition: none 0s ease 0s; display: block; text-align: center;" data-version="5"><p style="color:rgb(255, 255, 255);" class="text-align-center"><span style="display: initial; font-weight: 700; color: rgb(255, 255, 255);">Horas</span></p></div> <div class="u_1051090730 default dmHoursOfOperation" id="1051090730" dmle_extension="open_hours" data-element-type="open_hours" time_format="24" wr="true" lang="pt" displaytitle="false" forcedisplay="false" icon="true" surround="true" adwords="" title="Horário de Funcionamento" merge_days_display_runtime="true" hide_closed="false" timezone="" platform_id="" week_first_day="6" banner_open="We Are Open!" banner_closed="We Are Closed..." display_option="2" platform="dm" hours_data="eyIwIjp7InN0YXJ0VGltZSI6IjEwOjAwIiwiZW5kVGltZSI6IjIzOjAwIiwic3BsaXREYXkiOnsiU1RBUlRfTU9STklORyI6IjEwOjAwIiwiRU5EX01PUk5JTkciOiIyMzowMCIsIlNUQVJUX05PT04iOiIxMjowMCBhbSIsIkVORF9OT09OIjoiMTM6MDAgYW0ifSwiY3VzdG9tVGV4dCI6bnVsbCwiZGF5TW9kZSI6IjEifSwiMSI6eyJzdGFydFRpbWUiOiIxMDowMCIsImVuZFRpbWUiOiIyMzowMCIsInNwbGl0RGF5Ijp7IlNUQVJUX01PUk5JTkciOiIxMDowMCIsIkVORF9NT1JOSU5HIjoiMjM6MDAiLCJTVEFSVF9OT09OIjoiMTI6MDAgYW0iLCJFTkRfTk9PTiI6IjEzOjAwIGFtIn0sImN1c3RvbVRleHQiOm51bGwsImRheU1vZGUiOiIxIn0sIjIiOnsic3RhcnRUaW1lIjoiMTA6MDAiLCJlbmRUaW1lIjoiMjM6MDAiLCJzcGxpdERheSI6eyJTVEFSVF9NT1JOSU5HIjoiMTA6MDAiLCJFTkRfTU9STklORyI6IjIzOjAwIiwiU1RBUlRfTk9PTiI6IjEyOjAwIGFtIiwiRU5EX05PT04iOiIxMzowMCBhbSJ9LCJjdXN0b21UZXh0IjpudWxsLCJkYXlNb2RlIjoiMSJ9LCIzIjp7InN0YXJ0VGltZSI6IjEwOjAwIiwiZW5kVGltZSI6IjE6MDAiLCJzcGxpdERheSI6eyJTVEFSVF9NT1JOSU5HIjoiMTA6MDAiLCJFTkRfTU9STklORyI6IjE6MDAiLCJTVEFSVF9OT09OIjoiMjowMCIsIkVORF9OT09OIjoiMzowMCJ9LCJjdXN0b21UZXh0IjpudWxsLCJkYXlNb2RlIjoiMSJ9LCI0Ijp7InN0YXJ0VGltZSI6IjEwOjAwIiwiZW5kVGltZSI6IjE6MDAiLCJzcGxpdERheSI6eyJTVEFSVF9NT1JOSU5HIjoiMTA6MDAiLCJFTkRfTU9STklORyI6IjE6MDAiLCJTVEFSVF9OT09OIjoiMjowMCIsIkVORF9OT09OIjoiMzowMCJ9LCJjdXN0b21UZXh0IjpudWxsLCJkYXlNb2RlIjoiMSJ9LCI1Ijp7InN0YXJ0VGltZSI6IjEwOjAwIiwiZW5kVGltZSI6IjE6MDAiLCJzcGxpdERheSI6eyJTVEFSVF9NT1JOSU5HIjoiMTA6MDAiLCJFTkRfTU9STklORyI6IjE6MDAiLCJTVEFSVF9OT09OIjoiMjowMCIsIkVORF9OT09OIjoiMzowMCJ9LCJjdXN0b21UZXh0IjpudWxsLCJkYXlNb2RlIjoiMSJ9LCI2Ijp7InN0YXJ0VGltZSI6IjEwOjAwIiwiZW5kVGltZSI6IjIzOjAwIiwic3BsaXREYXkiOnsiU1RBUlRfTU9STklORyI6IjEwOjAwIiwiRU5EX01PUk5JTkciOiIyMzowMCIsIlNUQVJUX05PT04iOiIxMjowMCBhbSIsIkVORF9OT09OIjoiMTM6MDAgYW0ifSwiY3VzdG9tVGV4dCI6bnVsbCwiZGF5TW9kZSI6IjEifX0=" holyday_data="W10=" editablewidget="true" data-widget-type="hoursOfOperation"> <dl class="open-hours-data"> <div class="open-hours-item"> <dt day="6">Dom - Qua</dt> 
-   <dd> <time>10:00</time> 
-  - <time>23:00</time> 
-  </dd> 
-  </div> 
-   <div class="open-hours-item"> <dt day="3">Qui - Sáb</dt> 
-   <dd> <time>10:00</time> 
-  - <time>1:00</time> 
-  </dd> 
-  </div> 
-  </dl> 
-  </div> 
-  </div> 
-  </div> 
-  </div> 
-  </div> 
-  </div> 
-  </div> 
-  </div> 
-   <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
-  </div>
-</footer>
+
+      
 </body>
 
+
+
+
+
+
+
+
+
+<footer>
+    <div >
+    <br>
+     <a class="open" >*SOBRE MIM*</a>
+     <br>
+     <br>
+     <p>Meu nome é Paulo Henrique Leal Mattos</p>
+     <p>Tenho 19 anos</p>
+     <br>
+     <p>Estou cursando a graduação em "Biblioteconomia" na Universidade Federal do Espirito Santo</p>
+    <br>
+    <br>
+     <p>Começei esse negocio em 2021 parei por conta de alguns problemas e voltei agora </p>
+     <p>com esse site para me ajuda a melhora o atendimento e facilitar o contato </p>
+     <p>com meus clientes agilizando todo o processo...</p>
+   </br>
+    </div> 
+  </footer>
+
+
+  
+
+   
 </html>

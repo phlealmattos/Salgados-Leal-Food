@@ -36,6 +36,8 @@ body {
   }
   
   input[type="text"],
+  input[type="cpf"],
+  input[type="telefone"],
   input[type="email"],
   input[type="password"] {
     padding: 10px;
