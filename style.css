@@ -6,11 +6,27 @@ body {
   padding: 0;
 }
 
+.estrela img{
+
+position: absolute;
+top: -30%;
+left: 0%;
+width: 100%;
+height: 80%;
+align-items: center;
+border-bottom-left-radius: 970%;
+border-bottom-right-radius: 970%;
+border-top-left-radius: -100%;
+border-top-right-radius: -100%;
+
+
+}
+
 /* Logo e fundo */
 
 header {
-  position: relative;
-  background-color: #2d19e2;
+  position:relative;
+
   padding: 2px;
   color: #FFF;
   text-align: left;
@@ -39,7 +55,7 @@ header {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  background: #2d19e2;
+ 
   height: 40px;
   border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -475,54 +491,10 @@ color: #d6ff1e;
 
 }
 
-/*Area acima*/
-
-.fundo {
- font-style: italic;
-  position: absolute;
-  top: 11%;
- background: #d6ff1e;
-  padding: 0;
-  width: 100%;
-  height: 50px;
-  z-index: -1;
-
-}
-
-
-
-.iFood {
-
-  position: relative;
-  top: -15%;
-  
-  font-size: 16px;
-  margin-bottom: 40px;
-
-}
-
 
 /*meio*/
 
-.banner {
 
-  position: absolute;
-  top: 23%;
-  left: 35%;
-  padding: 100px;
-  text-align: center;
-  color: #000000;
-}
-
-.banner h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.banner p {
-  font-size: 20px;
-  margin-bottom: 40px;
-}
 
 .botao {
   background-color: #000000;
@@ -598,41 +570,9 @@ color: #d6ff1e;
 }
 
 
-/*descrição*/
-
-.card-restaurante1 {
-
-font-style: italic;
-position: absolute;
-top: 112%;
-left: 40.2%;
-
-
-}
-
-.card-restaurante2 {
-
-  font-style: italic;
-  position: absolute;
-  top: 112%;
-  left: 10%;
-
-  
-}
-
-.card-restaurante3 {
-
-  font-style: italic;
-  position: absolute;
-  top: 112%;
-  left: 70.5%;
-
-  
-}
 
 
 
-/* letreiro que move */
 
 
 
