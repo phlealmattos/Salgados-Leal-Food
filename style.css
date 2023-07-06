@@ -474,22 +474,7 @@ color: #d6ff1e;
 
 /*Login*/
 
-.Login {
 
-  position: absolute;
-  top: 35%;
-  left: 1705px;
-  padding: 10px 70px;
- background-color: #d6ff1e;
- color: #000000;
- border: none;
- cursor: pointer;
- border-top-left-radius: 20px ;
- border-top-right-radius: 20px;
- border-bottom-left-radius: 20px;
- border-bottom-right-radius: 20px;
-
-}
 
 
 /*meio*/
